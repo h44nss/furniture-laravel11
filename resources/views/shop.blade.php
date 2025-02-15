@@ -52,7 +52,7 @@
             </li>
             <li><a class="nav-link" href="/about">About us</a></li>
             <li><a class="nav-link" href="/services">Services</a></li>
-            <li><a class="nav-link" href="/blog">Blog</a></li>
+            <li><a class="nav-link" href="/blog">Design</a></li>
             <li><a class="nav-link" href="/contact">Contact us</a></li>
           </ul>
 
@@ -71,8 +71,27 @@
     </nav>
     <!-- End Header/Navigation -->
 
+    <!-- Start Search-Bar -->
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form action="/search" method="GET" class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              name="query"
+            />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--End Start Search-Bar -->
+
     <!-- Start Hero Section -->
-    <div class="hero">
+   <!--  <div class="hero">
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-lg-5">
@@ -83,8 +102,35 @@
           <div class="col-lg-7"></div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- End Hero Section -->
+
+    <!-- Start dropdown menu -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-15">
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Select Category
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="/kategorikursi">Chairs</a></li>
+              <li><a class="dropdown-item" href="#">Tables</a></li>
+              <li><a class="dropdown-item" href="#">Sofas</a></li>
+              <li><a class="dropdown-item" href="#">Beds</a></li>
+              <li><a class="dropdown-item" href="#">Cabinet</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End dropdown menu -->
+
 
     <div class="untree_co-section product-section before-footer-section">
       <div class="container">

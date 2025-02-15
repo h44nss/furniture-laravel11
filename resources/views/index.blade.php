@@ -37,7 +37,7 @@
 						<li><a class="nav-link" href="/shop">Shop</a></li>
 						<li><a class="nav-link" href="/about">About us</a></li>
 						<li><a class="nav-link" href="/services">Services</a></li>
-						<li><a class="nav-link" href="/blog">Blog</a></li>
+						<li><a class="nav-link" href="/blog">Design</a></li>
 						<li><a class="nav-link" href="/contact">Contact us</a></li>
 					</ul>
 
@@ -216,7 +216,7 @@
 							<li>Donec vitae odio quis nisl dapibus malesuada</li>
 							<li>Donec vitae odio quis nisl dapibus malesuada</li>
 						</ul>
-						<p><a href="shop.html" class="btn">Explore</a></p>
+						<p><a href="/blog" class="btn">Explore</a></p>
 					</div>
 				</div>
 			</div>
@@ -375,10 +375,10 @@
 			<div class="container">
 				<div class="row mb-5">
 					<div class="col-md-6">
-						<h2 class="section-title">Recent Blog</h2>
+						<h2 class="section-title">Recent Our Design</h2>
 					</div>
 					<div class="col-md-6 text-start text-md-end">
-						<a href="#" class="more">View All Posts</a>
+						<a href="/blog" class="more">View All Posts</a>
 					</div>
 				</div>
 

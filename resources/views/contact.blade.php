@@ -37,7 +37,7 @@
 						<li><a class="nav-link" href="/shop">Shop</a></li>
 						<li><a class="nav-link" href="/about">About us</a></li>
 						<li><a class="nav-link" href="/services">Services</a></li>
-						<li><a class="nav-link" href="/blog">Blog</a></li>
+						<li><a class="nav-link" href="/blog">Design</a></li>
 						<li class="active"><a class="nav-link" href="contact.html">Contact us</a></li>
 					</ul>
 

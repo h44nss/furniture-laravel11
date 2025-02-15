@@ -52,7 +52,7 @@
             <li class="active">
               <a class="nav-link" href="/services">Services</a>
             </li>
-            <li><a class="nav-link" href="/blog">Blog</a></li>
+            <li><a class="nav-link" href="/blog">Design</a></li>
             <li><a class="nav-link" href="/contact">Contact us</a></li>
           </ul>
 
@@ -221,7 +221,7 @@
               Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
               velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
             </p>
-            <p><a href="shop.html" class="btn">Explore</a></p>
+            <p><a href="/shop" class="btn">Explore</a></p>
           </div>
           <!-- End Column 1 -->
 

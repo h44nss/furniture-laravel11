@@ -51,7 +51,7 @@
             <li><a class="nav-link" href="/about">About us</a></li>
             <li><a class="nav-link" href="/services">Services</a></li>
             <li class="active">
-              <a class="nav-link" href="/blog">Blog</a>
+              <a class="nav-link" href="/blog">Design</a>
             </li>
             <li><a class="nav-link" href="/contact">Contact us</a></li>
           </ul>
@@ -71,21 +71,26 @@
     </nav>
     <!-- End Header/Navigation -->
 
+    
     <!-- Start Hero Section -->
     <div class="hero">
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-lg-5">
             <div class="intro-excerpt">
-              <h1>Blog</h1>
-              <p class="mb-4">
-                Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
-                velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+                <form action="/search" method="GET" class="d-flex justify-content-center mb-4">
+                <input type="text" name="query" class="form-control me-2" placeholder="Search...">
+                <button type="submit" class="btn btn-white-outline">Search</button>
+                </form>
+              <h1>Our Design</h1>
+              <p class="mb-4">  
+              Ciptakan ruang yang nyaman dan estetik dengan desain furniture yang selaras. Kami menghadirkan konsep modern, minimalis, hingga klasik yang disesuaikan dengan kebutuhan dan gaya Anda.  
+              Dengan perpaduan material berkualitas dan tata letak yang fungsional, setiap ruangan menjadi lebih indah dan efisien. Wujudkan interior impian Anda bersama kami! ✨
               </p>
-              <p>
+              <!-- <p>
                 <a href="/shop" class="btn btn-secondary me-2">Shop Now</a
                 ><a href="/shop" class="btn btn-white-outline">Explore</a>
-              </p>
+              </p> -->
             </div>
           </div>
           <div class="col-lg-7">

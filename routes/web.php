@@ -37,3 +37,7 @@ Route::get('/checkout', function () {
 Route::get('/thankyou', function () {
     return view('thankyou');
 });
+
+Route::get('/kategorikursi', function () {
+    return view('kategorikursi');
+});
