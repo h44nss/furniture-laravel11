@@ -24,9 +24,10 @@ class CustomerResource extends Resource
     {
         return $form
             ->schema([
-            
-                Forms\Components\Textinput::make('name')->required(),
-                Forms\Components\Textinput::make('email')->email()->required(),
+
+                Forms\Components\Textinput::make('name')->required()
+                    ->placeholder('Masukkan Nama Anda'),
+                Forms\Components\Textinput::make('email')->email()->required()->placeholder('Masukkan Email Anda'),
                 Forms\Components\FileUpload::make('image')->required(),
             ]);
     }
@@ -35,7 +36,8 @@ class CustomerResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('name'),
+                Tables\Columns\TextColumn::make('name')
+                    ->searchable(),
                 Tables\Columns\TextColumn::make('email'),
                 Tables\Columns\ImageColumn::make('image'),
             ])
